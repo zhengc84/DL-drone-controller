@@ -2,6 +2,7 @@ import numpy as np
 import pandas as pd
 from scipy.integrate import solve_ivp
 import os
+from tqdm import tqdm
 
 # --- 1. System Parameters ---
 G = 9.81           # Gravity (m/s^2)
@@ -41,28 +42,32 @@ class OraclePID:
         return u, derivative
 
 # --- 4. Simulation Loop ---
-def run_episode(episode_id, m_initial=2.0, m_final=1.2, t_drop=5.0, target_z=10.0):
+def run_episode(episode_id, m_initial, m_final, t_drop, target_z=10.0):
     time_steps = np.arange(0, T_MAX, DT)
     
-    # Base gains tuned for the initial mass
-    base_kp, base_ki, base_kd = 15.0, 5.0, 10.0 
-    pid = OraclePID(base_kp, base_ki, base_kd)
+    # 1. Define the mathematical baseline (The "Reference")
+    REFERENCE_MASS = 2.0 
+    REF_KP, REF_KI, REF_KD = 15.0, 5.0, 10.0 
     
-    # State tracking
-    state = [0.0, 0.0]  # [z, z_dot] starting on the ground
+    # 2. Oracle calculates the perfect starting gains for this specific flight
+    start_ratio = m_initial / REFERENCE_MASS
+    start_kp = REF_KP * start_ratio
+    start_ki = REF_KI * start_ratio
+    start_kd = REF_KD * start_ratio
+    
+    pid = OraclePID(start_kp, start_ki, start_kd)
+    state = [0.0, 0.0]
     history = []
-    
-    u = 0.0 # Initial thrust
+    u = 0.0 
     
     for t in time_steps:
-        # 1. Oracle checks mass and adjusts gains perfectly
         current_mass = m_final if t >= t_drop else m_initial
         
-        # Oracle scales gains proportional to mass to maintain identical dynamics
-        mass_ratio = current_mass / m_initial
-        pid.kp = base_kp * mass_ratio
-        pid.ki = base_ki * mass_ratio
-        pid.kd = base_kd * mass_ratio
+        # 3. Oracle continuously scales gains based on the REFERENCE, not the initial
+        mass_ratio = current_mass / REFERENCE_MASS
+        pid.kp = REF_KP * mass_ratio
+        pid.ki = REF_KI * mass_ratio
+        pid.kd = REF_KD * mass_ratio
         
         # 2. Calculate Control Input (PID)
         error = target_z - state[0]
@@ -107,11 +112,17 @@ if __name__ == "__main__":
     all_episodes = []
     
     # Generate 100 randomized episodes for a quick test
-    for i in range(100):
-        t_drop_random = np.random.uniform(3.0, 7.0)
-        m_final_random = np.random.uniform(0.8, 1.5)
+    for i in tqdm(range(5000), desc="Simulating Flights"):
+        # Randomize takeoff weight between 1.8kg and 3.0kg
+        m_initial_random = np.random.uniform(1.8, 3.0)
         
-        df_ep = run_episode(i, t_drop=t_drop_random, m_final=m_final_random)
+        # Randomize how much is dropped (leaving between 0.8kg and 1.5kg)
+        # Ensure m_final is always strictly less than m_initial!
+        m_final_random = np.random.uniform(0.8, m_initial_random - 0.2) 
+        
+        t_drop_random = np.random.uniform(3.0, 7.0)
+        
+        df_ep = run_episode(i, m_initial_random, m_final_random, t_drop_random)
         all_episodes.append(df_ep)
         
     final_df = pd.concat(all_episodes, ignore_index=True)
