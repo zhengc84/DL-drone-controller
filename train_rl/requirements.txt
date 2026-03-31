@@ -1,0 +1,17 @@
+# Core
+torch>=2.0.0
+numpy>=1.24.0
+gymnasium>=0.29.0
+
+# Simulation
+pybullet>=3.2.5
+
+# Mamba (requires CUDA — optional, fallback SSM included)
+pip install mamba-ssm  # uncomment if you have CUDA
+
+# Plotting / comparison
+matplotlib>=3.7.0
+
+# Optional: experiment tracking
+# wandb
+# tensorboard

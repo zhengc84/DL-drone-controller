@@ -1,0 +1,730 @@
+{
+  "lstm": [
+    {
+      "update": 100,
+      "mean_reward": -76.42377154379946,
+      "std_reward": 55.31445340272002,
+      "mean_error_pre": 0.0009327915174897253,
+      "mean_error_post": 0.7123809228956955,
+      "mean_settling_time": 2.6847826086956523,
+      "settling_rate": 0.46
+    },
+    {
+      "update": 200,
+      "mean_reward": -80.17201927484798,
+      "std_reward": 53.572585033733475,
+      "mean_error_pre": 0.0012468588034429857,
+      "mean_error_post": 0.7420232135802877,
+      "mean_settling_time": 2.8068181818181817,
+      "settling_rate": 0.44
+    },
+    {
+      "update": 300,
+      "mean_reward": -87.69098238123215,
+      "std_reward": 47.73221245060805,
+      "mean_error_pre": 0.0009720137525660281,
+      "mean_error_post": 0.8246029876367951,
+      "mean_settling_time": 2.6805555555555554,
+      "settling_rate": 0.36
+    },
+    {
+      "update": 400,
+      "mean_reward": -82.56154828473407,
+      "std_reward": 59.7350465934195,
+      "mean_error_pre": 0.000993975815401439,
+      "mean_error_post": 0.7256648939337847,
+      "mean_settling_time": 2.7,
+      "settling_rate": 0.55
+    },
+    {
+      "update": 500,
+      "mean_reward": -65.10967026955554,
+      "std_reward": 52.800291175131264,
+      "mean_error_pre": 0.0011176007654737127,
+      "mean_error_post": 0.5932645501480256,
+      "mean_settling_time": 2.75,
+      "settling_rate": 0.58
+    },
+    {
+      "update": 600,
+      "mean_reward": -80.79554593115658,
+      "std_reward": 53.32429599884407,
+      "mean_error_pre": 0.0016682412691404055,
+      "mean_error_post": 0.7422831015277442,
+      "mean_settling_time": 2.8295454545454546,
+      "settling_rate": 0.44
+    },
+    {
+      "update": 700,
+      "mean_reward": -78.2402886342529,
+      "std_reward": 51.13891830476985,
+      "mean_error_pre": 0.005581065962523041,
+      "mean_error_post": 0.7791501728752606,
+      "mean_settling_time": 2.836734693877551,
+      "settling_rate": 0.49
+    },
+    {
+      "update": 800,
+      "mean_reward": -95.00932996606187,
+      "std_reward": 36.85179131575345,
+      "mean_error_pre": 0.016852811646655995,
+      "mean_error_post": 0.7658556525227794,
+      "mean_settling_time": 2.740740740740741,
+      "settling_rate": 0.54
+    },
+    {
+      "update": 900,
+      "mean_reward": -97.07385306542575,
+      "std_reward": 29.47620199535144,
+      "mean_error_pre": 0.004534472226170809,
+      "mean_error_post": 0.7917996341037313,
+      "mean_settling_time": 2.7444444444444445,
+      "settling_rate": 0.45
+    },
+    {
+      "update": 1000,
+      "mean_reward": -93.31360099888794,
+      "std_reward": 25.420990245122674,
+      "mean_error_pre": 0.003528552829776489,
+      "mean_error_post": 0.7903201063264023,
+      "mean_settling_time": 2.7065217391304346,
+      "settling_rate": 0.46
+    },
+    {
+      "update": 1100,
+      "mean_reward": -99.76169430900876,
+      "std_reward": 39.934824096901636,
+      "mean_error_pre": 0.0035940622559201534,
+      "mean_error_post": 0.7916949423257725,
+      "mean_settling_time": 2.7564102564102564,
+      "settling_rate": 0.39
+    },
+    {
+      "update": 1200,
+      "mean_reward": -81.034121932596,
+      "std_reward": 50.596387450165096,
+      "mean_error_pre": 0.0011392877594607097,
+      "mean_error_post": 0.7290024487662261,
+      "mean_settling_time": 2.627659574468085,
+      "settling_rate": 0.47
+    },
+    {
+      "update": 1300,
+      "mean_reward": -72.22632143268693,
+      "std_reward": 44.10823057201672,
+      "mean_error_pre": 0.0012366521985010673,
+      "mean_error_post": 0.727765585145978,
+      "mean_settling_time": 2.704081632653061,
+      "settling_rate": 0.49
+    },
+    {
+      "update": 1400,
+      "mean_reward": -74.58299976402355,
+      "std_reward": 45.38447485932754,
+      "mean_error_pre": 0.0010428544594846337,
+      "mean_error_post": 0.7191379645542265,
+      "mean_settling_time": 2.7674418604651163,
+      "settling_rate": 0.43
+    },
+    {
+      "update": 1500,
+      "mean_reward": -76.58484837184076,
+      "std_reward": 41.21402407471994,
+      "mean_error_pre": 0.0017057203650208028,
+      "mean_error_post": 0.7865059582577323,
+      "mean_settling_time": 2.739130434782609,
+      "settling_rate": 0.46
+    },
+    {
+      "update": 1600,
+      "mean_reward": -78.02888000214851,
+      "std_reward": 46.83770071395584,
+      "mean_error_pre": 0.0015610414028881588,
+      "mean_error_post": 0.7695522531242809,
+      "mean_settling_time": 2.707317073170732,
+      "settling_rate": 0.41
+    },
+    {
+      "update": 1700,
+      "mean_reward": -73.70855428480877,
+      "std_reward": 50.85866069196372,
+      "mean_error_pre": 0.001122618133589061,
+      "mean_error_post": 0.7093017272542496,
+      "mean_settling_time": 2.7142857142857144,
+      "settling_rate": 0.42
+    },
+    {
+      "update": 1800,
+      "mean_reward": -78.63329832381471,
+      "std_reward": 52.27057820106718,
+      "mean_error_pre": 0.0015584749966549563,
+      "mean_error_post": 0.7090746006872424,
+      "mean_settling_time": 2.7169811320754715,
+      "settling_rate": 0.53
+    },
+    {
+      "update": 1900,
+      "mean_reward": -72.69753324183536,
+      "std_reward": 50.16395595110005,
+      "mean_error_pre": 0.00543713399414871,
+      "mean_error_post": 0.7065151418720861,
+      "mean_settling_time": 2.6702127659574466,
+      "settling_rate": 0.47
+    },
+    {
+      "update": 2000,
+      "mean_reward": -74.1738118713263,
+      "std_reward": 51.80793275744168,
+      "mean_error_pre": 0.00617407574291249,
+      "mean_error_post": 0.7236815588569628,
+      "mean_settling_time": 2.7403846153846154,
+      "settling_rate": 0.52
+    }
+  ],
+  "mamba": [
+    {
+      "update": 100,
+      "mean_reward": -68.5055561200792,
+      "std_reward": 48.51743902968683,
+      "mean_error_pre": 0.005524724208465159,
+      "mean_error_post": 0.7483447420095577,
+      "mean_settling_time": 3.0,
+      "settling_rate": 0.42
+    },
+    {
+      "update": 200,
+      "mean_reward": -68.96050188947265,
+      "std_reward": 45.427411444849206,
+      "mean_error_pre": 0.004924192634196165,
+      "mean_error_post": 0.7716106418902678,
+      "mean_settling_time": 2.8,
+      "settling_rate": 0.5
+    },
+    {
+      "update": 300,
+      "mean_reward": -68.30682420960532,
+      "std_reward": 51.70977825094442,
+      "mean_error_pre": 0.004082352760875447,
+      "mean_error_post": 0.7694512422150167,
+      "mean_settling_time": 3.0638297872340425,
+      "settling_rate": 0.47
+    },
+    {
+      "update": 400,
+      "mean_reward": -56.79070274020732,
+      "std_reward": 52.520211049417405,
+      "mean_error_pre": 0.004953688200605315,
+      "mean_error_post": 0.6168472635779796,
+      "mean_settling_time": 3.284313725490196,
+      "settling_rate": 0.51
+    },
+    {
+      "update": 500,
+      "mean_reward": -59.32148627338109,
+      "std_reward": 50.66651336034121,
+      "mean_error_pre": 0.004917126707598459,
+      "mean_error_post": 0.7006405028138579,
+      "mean_settling_time": 2.811320754716981,
+      "settling_rate": 0.53
+    },
+    {
+      "update": 600,
+      "mean_reward": -64.92059189281277,
+      "std_reward": 49.54628022492453,
+      "mean_error_pre": 0.005281516744610077,
+      "mean_error_post": 0.7536091421801367,
+      "mean_settling_time": 2.9895833333333335,
+      "settling_rate": 0.48
+    },
+    {
+      "update": 700,
+      "mean_reward": -55.96842183911196,
+      "std_reward": 44.254003464271086,
+      "mean_error_pre": 0.004488501301955887,
+      "mean_error_post": 0.7228145012672997,
+      "mean_settling_time": 2.803921568627451,
+      "settling_rate": 0.51
+    },
+    {
+      "update": 800,
+      "mean_reward": -63.79245515618198,
+      "std_reward": 44.337666738307135,
+      "mean_error_pre": 0.004101954843368123,
+      "mean_error_post": 0.7808324624536185,
+      "mean_settling_time": 2.880434782608696,
+      "settling_rate": 0.46
+    },
+    {
+      "update": 900,
+      "mean_reward": -53.17762617613587,
+      "std_reward": 48.34864310326344,
+      "mean_error_pre": 0.004330650319373639,
+      "mean_error_post": 0.65324100660466,
+      "mean_settling_time": 3.093220338983051,
+      "settling_rate": 0.59
+    },
+    {
+      "update": 1000,
+      "mean_reward": -57.705101931924425,
+      "std_reward": 47.17344605633307,
+      "mean_error_pre": 0.004535964421480195,
+      "mean_error_post": 0.6909681393198204,
+      "mean_settling_time": 3.1037735849056602,
+      "settling_rate": 0.53
+    },
+    {
+      "update": 1100,
+      "mean_reward": -55.557718151698595,
+      "std_reward": 49.49711314595524,
+      "mean_error_pre": 0.004133014125653961,
+      "mean_error_post": 0.6723788413042096,
+      "mean_settling_time": 2.857142857142857,
+      "settling_rate": 0.49
+    },
+    {
+      "update": 1200,
+      "mean_reward": -62.83767915117005,
+      "std_reward": 46.72762730011276,
+      "mean_error_pre": 0.004522957058298058,
+      "mean_error_post": 0.7527219229196064,
+      "mean_settling_time": 2.795918367346939,
+      "settling_rate": 0.49
+    },
+    {
+      "update": 1300,
+      "mean_reward": -66.62487563785598,
+      "std_reward": 48.2282630370066,
+      "mean_error_pre": 0.0035563301085346343,
+      "mean_error_post": 0.780332565529203,
+      "mean_settling_time": 2.840909090909091,
+      "settling_rate": 0.44
+    },
+    {
+      "update": 1400,
+      "mean_reward": -68.60519882448699,
+      "std_reward": 45.67215868429344,
+      "mean_error_pre": 0.003349371570150815,
+      "mean_error_post": 0.841319625449821,
+      "mean_settling_time": 3.054054054054054,
+      "settling_rate": 0.37
+    },
+    {
+      "update": 1500,
+      "mean_reward": -61.05344585962894,
+      "std_reward": 49.174316716622364,
+      "mean_error_pre": 0.002917165510280104,
+      "mean_error_post": 0.7069139933689407,
+      "mean_settling_time": 2.7033898305084745,
+      "settling_rate": 0.59
+    },
+    {
+      "update": 1600,
+      "mean_reward": -53.58684745240453,
+      "std_reward": 46.547561537900314,
+      "mean_error_pre": 0.00390947139104979,
+      "mean_error_post": 0.7111212162900802,
+      "mean_settling_time": 2.9148936170212765,
+      "settling_rate": 0.47
+    },
+    {
+      "update": 1700,
+      "mean_reward": -61.02947519312125,
+      "std_reward": 45.11085277604981,
+      "mean_error_pre": 0.004343521241415443,
+      "mean_error_post": 0.7515733122696919,
+      "mean_settling_time": 2.86,
+      "settling_rate": 0.5
+    },
+    {
+      "update": 1800,
+      "mean_reward": -67.67562711191118,
+      "std_reward": 43.586633123319544,
+      "mean_error_pre": 0.004184241584862456,
+      "mean_error_post": 0.8931886620218242,
+      "mean_settling_time": 2.8095238095238093,
+      "settling_rate": 0.42
+    },
+    {
+      "update": 1900,
+      "mean_reward": -66.91483104684661,
+      "std_reward": 42.070243256101044,
+      "mean_error_pre": 0.004336899905511946,
+      "mean_error_post": 0.858417666226406,
+      "mean_settling_time": 2.7333333333333334,
+      "settling_rate": 0.45
+    },
+    {
+      "update": 2000,
+      "mean_reward": -63.09071022635343,
+      "std_reward": 44.181037114065234,
+      "mean_error_pre": 0.004759505449889703,
+      "mean_error_post": 0.830910221404415,
+      "mean_settling_time": 2.735294117647059,
+      "settling_rate": 0.51
+    }
+  ],
+  "pretrained_lstm": [
+    {
+      "update": 100,
+      "mean_reward": -67.30337010983291,
+      "std_reward": 51.64056307265058,
+      "mean_error_pre": 0.004487836878659288,
+      "mean_error_post": 0.7060831927169589,
+      "mean_settling_time": 3.0416666666666665,
+      "settling_rate": 0.48
+    },
+    {
+      "update": 200,
+      "mean_reward": -72.73816505240181,
+      "std_reward": 55.600632336104226,
+      "mean_error_pre": 0.005433349920262499,
+      "mean_error_post": 0.7365287611165735,
+      "mean_settling_time": 2.858695652173913,
+      "settling_rate": 0.46
+    },
+    {
+      "update": 300,
+      "mean_reward": -67.76284647904396,
+      "std_reward": 52.121940229781586,
+      "mean_error_pre": 0.008523031786180694,
+      "mean_error_post": 0.723563492270713,
+      "mean_settling_time": 2.9313725490196076,
+      "settling_rate": 0.51
+    },
+    {
+      "update": 400,
+      "mean_reward": -71.56704813432518,
+      "std_reward": 45.131856495277106,
+      "mean_error_pre": 0.006517961219689798,
+      "mean_error_post": 0.7882185302181851,
+      "mean_settling_time": 2.904255319148936,
+      "settling_rate": 0.47
+    },
+    {
+      "update": 500,
+      "mean_reward": -57.06120893208514,
+      "std_reward": 56.201088777461266,
+      "mean_error_pre": 0.007281115953488633,
+      "mean_error_post": 0.5875491583080943,
+      "mean_settling_time": 3.03125,
+      "settling_rate": 0.64
+    },
+    {
+      "update": 600,
+      "mean_reward": -62.029090144307354,
+      "std_reward": 56.922099484425225,
+      "mean_error_pre": 0.007084107034878999,
+      "mean_error_post": 0.680044247371432,
+      "mean_settling_time": 2.759259259259259,
+      "settling_rate": 0.54
+    },
+    {
+      "update": 700,
+      "mean_reward": -65.05907744803606,
+      "std_reward": 55.74229281115663,
+      "mean_error_pre": 0.006592004232481253,
+      "mean_error_post": 0.7219081232944217,
+      "mean_settling_time": 2.843137254901961,
+      "settling_rate": 0.51
+    },
+    {
+      "update": 800,
+      "mean_reward": -69.62998890038138,
+      "std_reward": 49.572219189645,
+      "mean_error_pre": 0.007171963831179879,
+      "mean_error_post": 0.7180479542722874,
+      "mean_settling_time": 2.909090909090909,
+      "settling_rate": 0.55
+    },
+    {
+      "update": 900,
+      "mean_reward": -70.64292040316815,
+      "std_reward": 54.50565618550414,
+      "mean_error_pre": 0.005981607715851026,
+      "mean_error_post": 0.7293224405428694,
+      "mean_settling_time": 3.0096153846153846,
+      "settling_rate": 0.52
+    },
+    {
+      "update": 1000,
+      "mean_reward": -69.19360243224072,
+      "std_reward": 49.42339512290688,
+      "mean_error_pre": 0.004670377931971792,
+      "mean_error_post": 0.74853116157763,
+      "mean_settling_time": 2.8846153846153846,
+      "settling_rate": 0.52
+    },
+    {
+      "update": 1100,
+      "mean_reward": -75.98128129094287,
+      "std_reward": 51.03067416713336,
+      "mean_error_pre": 0.004546976102959894,
+      "mean_error_post": 0.8080778714245099,
+      "mean_settling_time": 2.738095238095238,
+      "settling_rate": 0.42
+    },
+    {
+      "update": 1200,
+      "mean_reward": -68.26256410010949,
+      "std_reward": 56.415368403567946,
+      "mean_error_pre": 0.004324256865740062,
+      "mean_error_post": 0.7132674009249774,
+      "mean_settling_time": 2.7954545454545454,
+      "settling_rate": 0.44
+    },
+    {
+      "update": 1300,
+      "mean_reward": -68.25210644147765,
+      "std_reward": 52.82290295057199,
+      "mean_error_pre": 0.004735242850157068,
+      "mean_error_post": 0.7282470737980355,
+      "mean_settling_time": 2.9431818181818183,
+      "settling_rate": 0.44
+    },
+    {
+      "update": 1400,
+      "mean_reward": -73.60293101413009,
+      "std_reward": 54.300544038922126,
+      "mean_error_pre": 0.004765970161117869,
+      "mean_error_post": 0.765112215920642,
+      "mean_settling_time": 2.872340425531915,
+      "settling_rate": 0.47
+    },
+    {
+      "update": 1500,
+      "mean_reward": -73.76622059408096,
+      "std_reward": 57.36105704825513,
+      "mean_error_pre": 0.005650521327844306,
+      "mean_error_post": 0.7248688095428243,
+      "mean_settling_time": 3.03,
+      "settling_rate": 0.5
+    },
+    {
+      "update": 1600,
+      "mean_reward": -69.54909639102905,
+      "std_reward": 56.56938535198267,
+      "mean_error_pre": 0.004413030757377277,
+      "mean_error_post": 0.719341478807611,
+      "mean_settling_time": 2.7790697674418605,
+      "settling_rate": 0.43
+    },
+    {
+      "update": 1700,
+      "mean_reward": -62.575393711896375,
+      "std_reward": 58.66756076806282,
+      "mean_error_pre": 0.004813474746331642,
+      "mean_error_post": 0.6568987210952573,
+      "mean_settling_time": 2.872093023255814,
+      "settling_rate": 0.43
+    },
+    {
+      "update": 1800,
+      "mean_reward": -61.728541912839646,
+      "std_reward": 54.08307575528144,
+      "mean_error_pre": 0.005332787997409227,
+      "mean_error_post": 0.6861909935017891,
+      "mean_settling_time": 2.86,
+      "settling_rate": 0.5
+    },
+    {
+      "update": 1900,
+      "mean_reward": -68.64484667093693,
+      "std_reward": 50.69558229629317,
+      "mean_error_pre": 0.00488966158447671,
+      "mean_error_post": 0.7155399903760492,
+      "mean_settling_time": 2.8207547169811322,
+      "settling_rate": 0.53
+    },
+    {
+      "update": 2000,
+      "mean_reward": -83.22049625766483,
+      "std_reward": 56.66186177199764,
+      "mean_error_pre": 0.005068430921490203,
+      "mean_error_post": 0.7802032897603612,
+      "mean_settling_time": 2.6530612244897958,
+      "settling_rate": 0.49
+    }
+  ],
+  "pretrained_mamba": [
+    {
+      "update": 100,
+      "mean_reward": -68.29289424263345,
+      "std_reward": 51.79837755991869,
+      "mean_error_pre": 0.00539215260033713,
+      "mean_error_post": 0.7048868622144284,
+      "mean_settling_time": 3.0869565217391304,
+      "settling_rate": 0.46
+    },
+    {
+      "update": 200,
+      "mean_reward": -73.9114874218583,
+      "std_reward": 53.64856768726239,
+      "mean_error_pre": 0.005584024282203242,
+      "mean_error_post": 0.7674640233075363,
+      "mean_settling_time": 2.7613636363636362,
+      "settling_rate": 0.44
+    },
+    {
+      "update": 300,
+      "mean_reward": -67.12703783876078,
+      "std_reward": 55.723935327275655,
+      "mean_error_pre": 0.005320514431367103,
+      "mean_error_post": 0.7058594637485437,
+      "mean_settling_time": 2.7830188679245285,
+      "settling_rate": 0.53
+    },
+    {
+      "update": 400,
+      "mean_reward": -68.25525325100281,
+      "std_reward": 56.83370951607351,
+      "mean_error_pre": 0.003680145349263168,
+      "mean_error_post": 0.6886548727891387,
+      "mean_settling_time": 2.824074074074074,
+      "settling_rate": 0.54
+    },
+    {
+      "update": 500,
+      "mean_reward": -67.82227488823554,
+      "std_reward": 59.092324742903955,
+      "mean_error_pre": 0.005458096486837875,
+      "mean_error_post": 0.7007726457201169,
+      "mean_settling_time": 2.7745098039215685,
+      "settling_rate": 0.51
+    },
+    {
+      "update": 600,
+      "mean_reward": -73.18376316760326,
+      "std_reward": 55.52841754903371,
+      "mean_error_pre": 0.005503245802058605,
+      "mean_error_post": 0.7559129772857198,
+      "mean_settling_time": 2.9886363636363638,
+      "settling_rate": 0.44
+    },
+    {
+      "update": 700,
+      "mean_reward": -65.26579397140492,
+      "std_reward": 55.565678255723846,
+      "mean_error_pre": 0.006605394128231903,
+      "mean_error_post": 0.6951883527323319,
+      "mean_settling_time": 2.925925925925926,
+      "settling_rate": 0.54
+    },
+    {
+      "update": 800,
+      "mean_reward": -64.42085504673433,
+      "std_reward": 50.70477222878694,
+      "mean_error_pre": 0.006957167518889815,
+      "mean_error_post": 0.7040091500952227,
+      "mean_settling_time": 2.814814814814815,
+      "settling_rate": 0.54
+    },
+    {
+      "update": 900,
+      "mean_reward": -63.358419853246524,
+      "std_reward": 55.04410621867253,
+      "mean_error_pre": 0.00627833063198681,
+      "mean_error_post": 0.6837945751717919,
+      "mean_settling_time": 3.0384615384615383,
+      "settling_rate": 0.52
+    },
+    {
+      "update": 1000,
+      "mean_reward": -72.30569230224712,
+      "std_reward": 52.06996201502245,
+      "mean_error_pre": 0.005407698945835132,
+      "mean_error_post": 0.7386307924830305,
+      "mean_settling_time": 2.8,
+      "settling_rate": 0.5
+    },
+    {
+      "update": 1100,
+      "mean_reward": -61.61841958441376,
+      "std_reward": 53.08012738093418,
+      "mean_error_pre": 0.004456516847011795,
+      "mean_error_post": 0.6646143584154196,
+      "mean_settling_time": 2.8529411764705883,
+      "settling_rate": 0.51
+    },
+    {
+      "update": 1200,
+      "mean_reward": -74.67938434918274,
+      "std_reward": 49.59064460113412,
+      "mean_error_pre": 0.004273366814848693,
+      "mean_error_post": 0.7816329512028353,
+      "mean_settling_time": 2.7872340425531914,
+      "settling_rate": 0.47
+    },
+    {
+      "update": 1300,
+      "mean_reward": -75.3019495841915,
+      "std_reward": 56.576944402219326,
+      "mean_error_pre": 0.004620354621711587,
+      "mean_error_post": 0.7402827221479038,
+      "mean_settling_time": 2.7934782608695654,
+      "settling_rate": 0.46
+    },
+    {
+      "update": 1400,
+      "mean_reward": -57.99009949514016,
+      "std_reward": 51.55566962158194,
+      "mean_error_pre": 0.004737033309783165,
+      "mean_error_post": 0.6312591675057151,
+      "mean_settling_time": 2.963636363636364,
+      "settling_rate": 0.55
+    },
+    {
+      "update": 1500,
+      "mean_reward": -50.944116975149846,
+      "std_reward": 54.58617524763587,
+      "mean_error_pre": 0.004582153762131102,
+      "mean_error_post": 0.5688565777386129,
+      "mean_settling_time": 2.8454545454545452,
+      "settling_rate": 0.55
+    },
+    {
+      "update": 1600,
+      "mean_reward": -71.98593855749843,
+      "std_reward": 54.290846640828214,
+      "mean_error_pre": 0.004928475037417886,
+      "mean_error_post": 0.7268979991953307,
+      "mean_settling_time": 2.73,
+      "settling_rate": 0.5
+    },
+    {
+      "update": 1700,
+      "mean_reward": -74.57104382645319,
+      "std_reward": 58.338558039115334,
+      "mean_error_pre": 0.004815825505946073,
+      "mean_error_post": 0.7739361582317591,
+      "mean_settling_time": 2.7142857142857144,
+      "settling_rate": 0.42
+    },
+    {
+      "update": 1800,
+      "mean_reward": -66.66340750280244,
+      "std_reward": 56.7094368697097,
+      "mean_error_pre": 0.004778314734593046,
+      "mean_error_post": 0.7157580412828192,
+      "mean_settling_time": 2.67,
+      "settling_rate": 0.5
+    },
+    {
+      "update": 1900,
+      "mean_reward": -69.38086532875519,
+      "std_reward": 58.358551580165546,
+      "mean_error_pre": 0.004757682698895847,
+      "mean_error_post": 0.7154503208231269,
+      "mean_settling_time": 2.6979166666666665,
+      "settling_rate": 0.48
+    },
+    {
+      "update": 2000,
+      "mean_reward": -69.41168717325563,
+      "std_reward": 55.4570307754131,
+      "mean_error_pre": 0.0040131269949407996,
+      "mean_error_post": 0.7174032229017299,
+      "mean_settling_time": 2.673469387755102,
+      "settling_rate": 0.49
+    }
+  ]
+}
