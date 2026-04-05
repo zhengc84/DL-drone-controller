@@ -241,7 +241,7 @@ def main():
     cfg = Config()
     cfg.env.hover_height = 5.0  # start at 2m instead of 1m
     cfg.env.mass_delta_range = (0.012, 0.016)  # 44-59% drop
-    cfg.env.episode_len_sec = 15.0             # longer episode to see full recovery
+    cfg.env.episode_len_sec = 10.0             # longer episode to see full recovery
     cfg.env.perturb_time_range = (3.0, 4.0)    # consistent drop time
     env = AdaptivePIDEnv(config=cfg.env)
     obs_dim = env.observation_space.shape[0]
