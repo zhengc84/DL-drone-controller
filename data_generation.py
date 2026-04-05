@@ -148,7 +148,6 @@ def run_episode(
     return pd.DataFrame(history)
 
 
-# --- 5. Generate Dataset ---
 if __name__ == "__main__":
     print("Generating improved Oracle dataset...")
     all_episodes = []
@@ -171,7 +170,7 @@ if __name__ == "__main__":
         scenario = np.random.random()
 
         if scenario < 0.4:
-            # Start at hover near target (most common in Phase 2)
+
             initial_z = target_z + np.random.normal(0, 0.1)
             initial_v = np.random.normal(0, 0.05)
         elif scenario < 0.7:

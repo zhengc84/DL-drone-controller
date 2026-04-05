@@ -54,8 +54,6 @@ def train_model(model, train_loader, val_loader, model_name, epochs, device='cud
     best_val_loss = float('inf')
     patience_counter = 0
     
-    # --- LOCAL LOGGER INIT ---
-    # Create an empty list to store the metrics for this specific model
     training_log = []
     
     for epoch in range(epochs):
@@ -133,6 +131,5 @@ if __name__ == "__main__":
     lstm_model = BaselineLSTM()
     mamba_model = MambaPIDTuner()
     
-    # Train both back-to-back. The logger will handle separating the files!
     # train_model(lstm_model, train_loader, val_loader, "LSTM_Tuner", epochs=200, device=device)
     train_model(mamba_model, train_loader, val_loader, "Mamba_Tuner", epochs=120, device=device)

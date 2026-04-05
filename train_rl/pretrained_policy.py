@@ -1,16 +1,7 @@
 """
-Bridge between Phase 1 (supervised, 1DOF) and Phase 2 (RL, 6DOF).
-
 Loads the pretrained Mamba or LSTM backbone from Phase 1 and reuses it
 as a per-axis "plant change detector" inside the RL policy.
-
-Phase 1 architecture (from your code):
-    input (B, 50, 4) → Mamba/LSTM → last step → Linear → 3 gains
-    
-    The backbone learned: "given 50 steps of (error, derror, ierror, ?),
-    extract a representation that predicts what gains should be."
-
-Phase 2 reuse:
+Phase 2 :
     For each axis (x, y, z), feed that axis's error history through
     the SAME pretrained backbone. Concatenate the three embeddings.
     RL policy head sits on top and outputs 9 gain deltas.
@@ -130,12 +121,6 @@ class PretrainedRLPolicy(nn.Module):
             extract 4 features from obs → (error, derror, ierror, flag)
             run through shared pretrained detector → embedding
 
-        Concatenate [x_embed, y_embed, z_embed, drone_state, current_gains]
-            → MLP actor head → 9 gain deltas
-            → MLP critic head → value
-
-    The pretrained detector starts frozen. After initial RL training,
-    you can unfreeze it for end-to-end fine-tuning.
     """
 
     def __init__(
@@ -322,12 +307,3 @@ class PretrainedRLPolicy(nn.Module):
 #         hidden_size=128,
 #         error_history_len=cfg.env.error_history_len,
 #     )
-#
-# # Train normally with RL for N updates with detector frozen.
-# # Then unfreeze and fine-tune:
-#
-# if update == 200:  # after initial convergence
-#     policy.unfreeze_detector()
-#     # Optionally lower LR:
-#     for pg in optimizer.param_groups:
-#         pg['lr'] *= 0.1
